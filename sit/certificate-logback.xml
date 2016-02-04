@@ -74,10 +74,12 @@
   <logger name="se.inera.certificate.service.impl.StatisticsServiceImpl" level="info" />
   <logger name="se.inera.certificate.modules.fk7263" level="error" />
   <logger name="se.inera.certificate.modules.fk7263.model.converter.TransportToExternalFk7263LegacyConverter" level="warn" />
-  
+
   <logger name="se.inera.certificate.modules.ts_bas" level="error" />
-  
+
   <logger name="se.inera.certificate.modules.ts_diabetes" level="error" />
+
+  <logger name="se.inera.intyg.intygstjanst.web.service.MonitoringLogService" level="info" />
 
   <root>
     <level value="error" />
