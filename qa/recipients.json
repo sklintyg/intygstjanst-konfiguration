@@ -1,0 +1,23 @@
+[
+  {
+    "id": "FK",
+    "name": "F\u00F6rs\u00E4kringskassan",
+    "logicalAddress": "FKORG",
+    "certificateTypes": [
+      "fk7263",
+      "luse",
+      "lisjp",
+      "luae_fs",
+      "luae_na"
+    ]
+  },
+  {
+    "id" : "TS",
+    "name" : "Transportstyrelsen",
+    "logicalAddress" : "tsTestAdress",
+    "certificateTypes" : [
+      "ts-bas",
+      "ts-diabetes"
+    ]
+  }
+]
