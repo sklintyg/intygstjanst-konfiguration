@@ -65,5 +65,23 @@
     ],
     "active" : true,
     "trusted": true
+  },
+  {
+    "id": "SKV",
+    "name": "Skatteverket",
+    "logicalAddress": "Skatteverket",
+    "certificateTypes" : [
+      "db"
+    ],
+    "active" : true
+  },
+  {
+    "id": "SOS",
+    "name": "Socialstyrelsen",
+    "logicalAddress": "SOS",
+    "certificateTypes" : [
+      "doi"
+    ],
+    "active" : true
   }
 ]
