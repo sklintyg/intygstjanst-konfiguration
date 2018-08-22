@@ -2,6 +2,7 @@
   {
     "id": "FKASSA",
     "name": "F\u00F6rs\u00E4kringskassan",
+    "recipientType": "HUVUDMOTTAGARE",
     "logicalAddress": "FKORG",
     "certificateTypes": [
       "fk7263",
@@ -10,21 +11,36 @@
       "luae_fs",
       "luae_na"
     ],
-    "active" : true
+    "active" : true,
+    "trusted": true
+  },
+  {
+    "id" : "FBA",
+    "name" : "F\u00F6rs\u00E4kringsbolaget AB",
+    "recipientType": "MOTTAGARE",
+    "logicalAddress" : "fail-adress",
+    "certificateTypes" : [
+      "lisjp"
+    ],
+    "active" : true,
+    "trusted": false
   },
   {
     "id" : "TRANSP",
     "name" : "Transportstyrelsen",
+    "recipientType": "HUVUDMOTTAGARE",
     "logicalAddress" : "tsTestAdress",
     "certificateTypes" : [
       "ts-bas",
       "ts-diabetes"
     ],
-    "active" : true
+    "active" : true,
+    "trusted": true
   },
   {
     "id" : "HSVARD",
     "name" : "Hälso- och sjukvården",
+    "recipientType": "MOTTAGARE",
     "logicalAddress" : "hsvardAdress",
     "certificateTypes" : [
       "ts-bas",
@@ -35,11 +51,13 @@
       "luae_na",
       "luae_fs"
     ],
-    "active" : true
+    "active" : true,
+    "trusted": true
   },
   {
     "id" : "INVANA",
     "name" : "Invånaren",
+    "recipientType": "MOTTAGARE",
     "logicalAddress" : "miAdress",
     "certificateTypes" : [
       "ts-bas",
@@ -50,11 +68,13 @@
       "luae_na",
       "luae_fs"
     ],
-    "active" : true
+    "active" : true,
+    "trusted": true
   },
   {
     "id": "SKV",
     "name": "Skatteverket",
+    "recipientType": "DIREKTMOTTAGARE",
     "logicalAddress": "Skatteverket",
     "certificateTypes" : [
       "db"
@@ -64,6 +84,7 @@
   {
     "id": "SOS",
     "name": "Socialstyrelsen",
+    "recipientType": "DIREKTMOTTAGARE",
     "logicalAddress": "SOS",
     "certificateTypes" : [
       "doi"
@@ -73,6 +94,7 @@
   {
     "id": "AF",
     "name": "Arbetsförmedlingen",
+    "recipientType": "HUVUDMOTTAGARE",
     "logicalAddress": "AF",
     "certificateTypes" : [
       "af00213"
